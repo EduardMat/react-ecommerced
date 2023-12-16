@@ -18,7 +18,7 @@ export const Cart = () => {
       </div>
 
       <div className="cartItems">
-        // eslint-disable-next-line
+        [// eslint-disable-next-line]
         {Products.map((product) => {
           if (cartItems[product.id] !== 0) {
             return <CartItem data={product} />;
